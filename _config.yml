@@ -21,7 +21,7 @@ description: >
 # baseurl: "/paperdrip" # the subpath of your site, e.g. /blog/
 url: "https://paperdrip-dl.github.io/" # the base hostname & protocol for your site
 # cover: "/assets/paperdrip.PNG"
-logo: "/assets/logo.png"
+logo: "/assets/icons/logo.png"
 
 # Build settings
 markdown: kramdown
