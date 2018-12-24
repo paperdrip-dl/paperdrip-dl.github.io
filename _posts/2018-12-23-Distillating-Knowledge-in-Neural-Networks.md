@@ -287,6 +287,9 @@ Specialist の数を9まで増やしていくと最大の効果を得られて�
 さて，これからDistillation系論文をどんどん読んでいきたいと思います．
 間違っているところなどがあれば，気軽にコメントいただけると大変ありがたく思います．
 
+## 参考文献
+* [指数関数の定義について][math]
+
 [distill-jp]: http://codecrafthouse.jp/p/2018/01/knowledge-distillation/
 [nna]: https://towardsdatascience.com/neural-network-architectures-156e5bad51ba
 [distill-survey]: https://paperdrip-dl.github.io/distillation/2018/12/22/Distillation-Survey.html
@@ -294,5 +297,6 @@ Specialist の数を9まで増やしていくと最大の効果を得られて�
 [model-compr]:https://www.cs.cornell.edu/~caruana/compression.kdd06.pdf
 [softmax-tm]:https://qiita.com/nkriskeeic/items/db3b4b5e835e63a7f243
 [caruana]:https://arxiv.org/abs/1312.6184
+[math]:http://takeno.iee.niit.ac.jp/~shige/math/lecture/misc/data/exponential1.pdf
 
 [^1]: 具体的には まずlabeled data で学習した高性能モデルの出力確率を使って unlabeled data をラベリングして pseudo dataset を形成する(MUNGE アルゴリズム)．次にその pseudo dataset を使って小さなモデルを学習する．要するに未知のunlabeled data を経由して高性能モデルから小さなモデルに知識を転移させるわけです．詳細は割愛．
