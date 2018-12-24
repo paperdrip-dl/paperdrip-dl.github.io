@@ -71,7 +71,7 @@ Teacher のドメイン知識をStudent に転移させているわけなので�
 [distill-jp]: http://codecrafthouse.jp/p/2018/01/knowledge-distillation/
 [distill-eng]: https://medium.com/neural-machines/knowledge-distillation-dc241d7c2322
 [nna]: https://towardsdatascience.com/neural-network-architectures-156e5bad51ba
-[survey1]: https://paperdrip-dl.github.io/distillation/2018/12/22/Distillating-Knowledge-in-Neural-Networks.html.html
+[survey1]: https://paperdrip-dl.github.io/distillation/2018/12/23/Distillating-Knowledge-in-Neural-Networks.html
 [paper1]: https://arxiv.org/abs/1503.02531
 [paper2]: https://arxiv.org/abs/1412.6550
 [paper3]: https://arxiv.org/abs/1706.00384
