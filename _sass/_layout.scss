@@ -72,13 +72,15 @@ pre code.hljs {
 .site-header-container, .post-header-container {
 	width: 100%;
 	text-align: center;
+	border-top: solid 2px $highlight-color;
+	border-bottom: solid 2px $highlight-color;
 	&.has-cover {
 		color: $white;
 		text-shadow: 0 2px 1px rgba(0,0,0,0.67) !important;
 		background-position: 50% 50%;
 		background-size: cover;
 		.title {
-			font-size: modular-scale(6);
+			font-size: modular-scale(5);
 		}
 		.subtitle, .info {
 			font-size: modular-scale(1);
@@ -88,7 +90,7 @@ pre code.hljs {
 		padding: 3em 1em;
 		&.has-cover {
 			background-color: rgba(0,0,0,0.2);
-			padding: 6em 1em !important;
+			padding: 5em 1em !important;
 			@include media($tablet) {
 				padding: 9em 1em !important;
 			}
@@ -250,6 +252,11 @@ pre code.hljs {
 		border-bottom: solid 2px $highlight-color;
 	}
 	img {
+		display: block;
+		margin: auto;
+		width: 100%;
+	}
+	.mainimg {
 		display: block;
 		margin: auto;
 		width: 70%;
