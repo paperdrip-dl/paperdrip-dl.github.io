@@ -44,9 +44,9 @@ Teacher のドメイン知識をStudent に転移させているわけなので�
 
 * [Distilling Knowledge in a Neural Network][survey1] [[1][paper1]]
 * [FitNets: Hint for Thin Deep Nets][survey2] [[2][paper2]]
+* [Deep Mutual Learning][survey3] [[3][paper3]]
 
 以下，準備中
-* Deep Mutual Learning [[3][paper3]]
 * Knowledge Concentration: Learning 100K Object Classifier in a Single CNN [[4][paper4]]
 * Data Distillation [[5][paper5]]
 * Born-Again Neural Networks [[6][paper6]]
@@ -73,6 +73,7 @@ Teacher のドメイン知識をStudent に転移させているわけなので�
 [nna]: https://towardsdatascience.com/neural-network-architectures-156e5bad51ba
 [survey1]: https://paperdrip-dl.github.io/distillation/2018/12/23/Distillating-Knowledge-in-Neural-Networks.html
 [survey2]: https://paperdrip-dl.github.io/distillation/2018/12/25/FitNets.html
+[survey3]: https://paperdrip-dl.github.io/distillation/2019/01/02/Deep_Mutual_Learning.html
 [paper1]: https://arxiv.org/abs/1503.02531
 [paper2]: https://arxiv.org/abs/1412.6550
 [paper3]: https://arxiv.org/abs/1706.00384
