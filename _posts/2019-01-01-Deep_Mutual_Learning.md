@@ -9,7 +9,7 @@ cover:  "/assets/covers/2019-01-02.png"
 ---
 
 新年明けましておめでとうございます．
-Distillation 企画の2019年一発目は，Deep Mutual Learning です．
+[Distillation 企画][distill-survey]の2019年一発目は，Deep Mutual Learning です．
 こちらは実を言うとDistillation に分類すべきかは微妙なところなのですが，**Student の学習時に Teacher は不要**という大胆な主張をしている面白い論文です．
 
 ## 概要
@@ -259,6 +259,7 @@ DML は Student 数が増えるとともに平均精度が向上しているこ�
 [fitnets]: https://arxiv.org/abs/1412.6550
 [entropysgd]: https://arxiv.org/abs/1611.01838
 [penalizing]: https://arxiv.org/abs/1701.06548
+[distill-survey]: https://paperdrip-dl.github.io/distillation/2018/12/22/Distillation-Survey.html
 
 
 [^1]: 論文中では**$$z^m$$ is the output of the softmax layer in $$\Theta_1$$**とありますが，おそらく誤植だと思います．
